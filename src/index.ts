@@ -1,4 +1,4 @@
-export default function (selectedNode: string, spacing: number = 10) {
+export default function (selectedNode: string, spacing: 3|4|5|6|10 = 10) {
   let spacingCharacter = ''
   switch (spacing) {
     case 3:
@@ -17,7 +17,7 @@ export default function (selectedNode: string, spacing: number = 10) {
       spacingCharacter = '\u200A'
       break
     default:
-      spacingCharacter = '\u2006'
+      spacingCharacter = '\u200A'
   }
   const nodes = document.querySelectorAll(`${selectedNode}`)
   for (let i in nodes) {
