@@ -1,8 +1,9 @@
 {
   "name": "arsene",
   "version": "1.0.0",
-  "description": "",
-  "author": "",
+  "description": "Arsene is a library for processing CJK text paragraphs, which are mixed with English characters and adding spacing between them.",
+  "author": "Astrian Zheng",
+  "keywords": ["arsene", "cjk", "typography"],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
