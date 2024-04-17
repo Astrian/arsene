@@ -1,0 +1,13 @@
+{
+  "name": "arsene",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
