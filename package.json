@@ -1,6 +1,6 @@
 {
   "name": "arsene",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Arsene is a library for processing CJK text paragraphs, which are mixed with English characters and adding spacing between them.",
   "author": "Astrian Zheng",
   "keywords": [
@@ -16,5 +16,9 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.nas.astrian.moe/Astrian/arsene.git"
   }
 }
