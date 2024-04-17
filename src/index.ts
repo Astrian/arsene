@@ -41,7 +41,7 @@ function processText(node: Node, spacingCharacter: string): void {
         // if the char is chinese or japanese (kanji or kana)
         if (cnchar_and_kanji.test(textArr[i]) || kana.test(textArr[i])) {
           // if next char is english
-          if (/[a-zA-Z]/.test(textArr[i + 1])) {
+          if (english_and_number.test(textArr[i + 1])) {
             // 1/8 em space
             newText += textArr[i] + spacingCharacter
           } else {
