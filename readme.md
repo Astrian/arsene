@@ -21,7 +21,7 @@ import arsene from 'arsene' // 1. 导入库
 
 function App() {
   useEffect(() => {
-    arsene(".arsene_processing_text") // 2. 应用于具体的元素，支持 `.class`、`#id` 或是 HTML 标签名。
+    arsene(".arsene-area") // 2. 应用于具体的元素，支持 `.class`、`#id` 或是 HTML 标签名。
   }, [])
   return(<>
     <div className="arsene-area">
