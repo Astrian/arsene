@@ -1,19 +1,19 @@
-export default function (selectedNode: string, spacing: 3|4|5|6|10 = 10) {
+export default function (selectedNode: string, spacing: '2xl'|'xl'|'l'|'m'|'s' = 's') {
   let spacingCharacter = ''
   switch (spacing) {
-    case 3:
+    case '2xl':
       spacingCharacter = '\u2004'
       break
-    case 4:
+    case 'xl':
       spacingCharacter = '\u2005'
       break
-    case 5:
+    case 'l':
       spacingCharacter = '\u2009'
       break
-    case 6:
+    case 'm':
       spacingCharacter = '\u2006'
       break
-    case 10:
+    case 's':
       spacingCharacter = '\u200A'
       break
     default:
