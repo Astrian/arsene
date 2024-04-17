@@ -3,6 +3,8 @@ Arsene 亚森是一个用于处理 CJK 字符（韩文字符目前不可用）�
 
 ![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3pxZ2trM2l3cHd4ajM0eDRhMnYwOXdpbjJidWlwazZ2Y3R4bHVqeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Urw1D3Jl8rFzRQAlVy/giphy.gif)
 
+[在线体验](https://arsene-showcase.netlify.app)
+
 ## 基础使用方法
 以下以 React 环境的 TypeScript 为用例，其他环境使用方法类似。
 
