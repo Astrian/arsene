@@ -1,5 +1,5 @@
 # Arsene（亚森）
-Arsene 亚森是一个用于处理 CJK 字符（韩文字符目前不可用）与英文字符和阿拉伯字符间空隙的前端库。不需要人为手动添加空格，只需在编写前端页面时，将其引入并执行处理代码，即可自动处理。
+Arsene 亚森是一个用于处理 CJK 字符（韩文字符目前不可用）与英文字符和阿拉伯数字间空隙的前端库。不需要人为手动添加空格，只需在编写前端页面时，将其引入并执行处理代码，即可自动处理。
 
 ![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3pxZ2trM2l3cHd4ajM0eDRhMnYwOXdpbjJidWlwazZ2Y3R4bHVqeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Urw1D3Jl8rFzRQAlVy/giphy.gif)
 
